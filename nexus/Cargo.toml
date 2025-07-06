@@ -5,19 +5,19 @@ edition = "2024"
 
 [dependencies]
 
-aide = { version = "0.14.2", features = ["axum"] }
+aide = { version = "0.15.0", features = ["axum"] }
 anyhow = "1.0.98"
 axum = { version = "0.8.4", features = ["default", "ws"] }
-battler-wamprat = "0.6.0"
+battler-wamprat = "0.6.1"
 config = { version = "0.15.11", features = ["default", "yaml"] }
 futures = "0.3.31"
 gateway = { path = "../gateway", optional = true }
-lapin = "3.0.0-beta.3"
+lapin = "3.0.0"
 sea-streamer = { version = "0.5.0", features = ["runtime-tokio"] }
 sea-streamer-socket = "0.5.2"
 serde = "1.0.219"
 serde_json = "1.0.140"
-tokio = { version = "1.45.0", features = ["full"] }
+tokio = { version = "1.46.1", features = ["full"] }
 tokio-tungstenite = "0.26.2"
 tower = "0.5.2"
 tracing = "0.1.41"
